@@ -1,0 +1,15 @@
+﻿  Source.cpp
+c:\users\30330\documents\teamawsome\30330imageanalysisexercise1-master\30330imageanalysisexercise1-master\helloworld\source.cpp(78): warning C4309: '=': truncation of constant value
+c:\users\30330\documents\teamawsome\30330imageanalysisexercise1-master\30330imageanalysisexercise1-master\helloworld\source.cpp(89): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\30330\documents\teamawsome\30330imageanalysisexercise1-master\30330imageanalysisexercise1-master\helloworld\source.cpp(126): warning C4018: '<': signed/unsigned mismatch
+c:\users\30330\documents\teamawsome\30330imageanalysisexercise1-master\30330imageanalysisexercise1-master\helloworld\source.cpp(153): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'double'
+c:\users\30330\documents\teamawsome\30330imageanalysisexercise1-master\30330imageanalysisexercise1-master\helloworld\source.cpp(153): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'double'
+c:\users\30330\documents\teamawsome\30330imageanalysisexercise1-master\30330imageanalysisexercise1-master\helloworld\source.cpp(153): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 3 has type 'double'
+c:\users\30330\documents\teamawsome\30330imageanalysisexercise1-master\30330imageanalysisexercise1-master\helloworld\source.cpp(167): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'double'
+c:\users\30330\documents\teamawsome\30330imageanalysisexercise1-master\30330imageanalysisexercise1-master\helloworld\source.cpp(167): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'double'
+c:\users\30330\documents\teamawsome\30330imageanalysisexercise1-master\30330imageanalysisexercise1-master\helloworld\source.cpp(168): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\30330\documents\teamawsome\30330imageanalysisexercise1-master\30330imageanalysisexercise1-master\helloworld\source.cpp(169): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\30330\documents\teamawsome\30330imageanalysisexercise1-master\30330imageanalysisexercise1-master\helloworld\source.cpp(122): warning C4101: 'name': unreferenced local variable
+c:\users\30330\documents\teamawsome\30330imageanalysisexercise1-master\30330imageanalysisexercise1-master\helloworld\source.cpp(121): warning C4101: 'n': unreferenced local variable
+c:\users\30330\documents\teamawsome\30330imageanalysisexercise1-master\30330imageanalysisexercise1-master\helloworld\source.cpp(20): warning C4101: 'frame': unreferenced local variable
+  helloWorld.vcxproj -> C:\Users\30330\Documents\teamAwsome\30330ImageAnalysisExercise1-master\30330ImageAnalysisExercise1-master\Debug\helloWorld.exe
