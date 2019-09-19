@@ -73,7 +73,7 @@ int main(int argc, char* argv[])
 	{
 		value = channel[i];
 		histogram[value] += 1;
-		if (channel2[i] >= t)
+		if (channel2[i] <= t)
 		{
 			imgT -> imageData[i] = 255;
 		}
@@ -154,9 +154,9 @@ int main(int argc, char* argv[])
 	double my00 = (double)M00;
 	double my01 = 0;
 	double my10 = 0;
-	double my20 = ((double)M20 - (double)xCM * (double)M10);
-	double my02 = ((double)M02 - (double)yCM * (double)M01);
-	double my11 = ((double)M11 - (double)yCM * (double)M10);
+	double my20 = ((double)M20 - (double)xCM * (double)M10)/M00;
+	double my02 = ((double)M02 - (double)yCM * (double)M01) / M00;
+	double my11 = ((double)M11 - (double)yCM * (double)M10) / M00;
 	printf("my11 = %f my20-my02 %f\n", my11, (my20 - my02));
 	double theta = 0.5*atan2( 2*my11, (my20 - my02)); // 0.5*atan(2 * my11/( my20 - my02));// 
 
